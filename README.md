@@ -32,9 +32,22 @@
 $ npm install
 ```
 
+## ENV File 
+
+```
+# BackBlaze B2 Services
+BUCKET_ID = 
+APPLICATION_KEY_ID = 
+APPLICATION_KEY = 
+
+```
+
 ## Running the app
 
+
+
 ```bash
+
 # development
 $ npm run start
 
@@ -43,6 +56,8 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+
 ```
 
 ## Test
